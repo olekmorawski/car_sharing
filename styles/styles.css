@@ -256,3 +256,37 @@ body {
 .section .section__img.section__img--secondary {
   max-width: 10.625rem;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 1.25rem;
+}
+.contact-form button {
+  align-self: flex-end;
+}
+
+.inner.inner--narrow {
+  max-width: 56.5rem;
+}
+
+.inner.inner--narrow .section__col {
+  width: 50%;
+}
+.contact-form .contact-form__group {
+  display: flex;
+  gap: 0.625rem;
+  align-items: flex-start;
+}
+.contact-form .contact-form__group .contact-form__checkbox {
+  order: -10;
+}
+.contact-form .contact-form__group label {
+  font-size: 0.625rem;
+  color: rgba(178, 178, 178, 1);
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-top: -0.15rem;
+}
